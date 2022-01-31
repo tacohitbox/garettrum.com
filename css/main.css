@@ -56,7 +56,7 @@ p {
 .soc {
   text-align: center;
   width: 100%;
-  height: 64px;
+  height: 42px;
 }
 
 .soc a {
@@ -73,6 +73,21 @@ p {
   margin-right: auto;
 }
 
-.icon:hover {
+.soc img:hover {
   filter: none;
+}
+
+.sc {
+  text-align: center;
+  font-size: small;
+  margin-top: 0;
+}
+
+.sc a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.sc a:hover {
+  text-decoration: underline;
 }
