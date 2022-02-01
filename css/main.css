@@ -42,14 +42,14 @@ p {
 @media (min-width: 700px) {
   .gart *,
   .gart-ns {
-    height: 60vh;
+    max-height: 60vh;
   }  
 }
 
 @media (max-width: 699px) {
   .gart *,
   .gart-ns {
-    height: 80vh;
+    max-height: 80vh;
   }  
 }
 
