@@ -28,8 +28,6 @@ p {
 
 .gart *,
 .gart-ns {
-  width: fit-content;
-  width: -moz-fit-content;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;

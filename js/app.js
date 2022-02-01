@@ -15,7 +15,7 @@ var imgs = [
   toImg('14.jpg')
 ]
 
-document.querySelector(".gart").innerHTML = imgs[Math.floor(Math.random()*imgs.length)];
+document.querySelector(".gart").innerHTML = imgs[Math.floor(Math.random() * imgs.length)];
 
 function toImg(src) {
   return `<img alt="Image of Garett." src="/assets/images/${src}">`;
