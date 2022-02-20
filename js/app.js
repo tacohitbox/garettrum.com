@@ -14,7 +14,13 @@ var imgs = [
   toImg('13.jpg'),
   toImg('14.png'),
   toImg('15.png'),
-  toImg('16.png')
+  toImg('16.png'),
+  toImg('16.png'),
+  toImg('17.png'),
+  toImg('18.png'),
+  toImg('19.png'),
+  toImg('20.png'),
+  toImg('21.png')
 ]
 
 document.querySelector(".gart").innerHTML = imgs[Math.floor(Math.random() * imgs.length)];
